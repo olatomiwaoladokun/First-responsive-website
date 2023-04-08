@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="Images /logo_designed.png"/>
+    <title>Login</title>
+    <style>
+* {
+	margin-left: 100px;
+}
+
+	  .logo {
+		  width: 100px;
+		  border-radius: 10px;
+		  margin-top: 160px;
+		  margin-left: 450px;
+		  margin-bottom: none;
+	  }
+	  .Welcome {
+		  margin-left: 450px;
+		  margin-bottom: none;
+	  }
+
+	  .Form {
+		  width: 240px;
+
+		  margin-left: 200px;
+		  letter-spacing: 20px;
+	  }
+	  .Form input {
+		  margin-left: 200px;
+		  margin-top: 20px;
+		  width: 250px;
+		  height: 25px;
+		  font-size: 15px;
+		  border-top: none;
+		  border-left: none;
+		  border-right: none;
+		  border-color: black;
+	  }
+
+	  .Form input:focus {
+		  outline: none;
+	  }
+	  .btn {
+		  width: 200px;
+		  height: 40px;
+		  color: blue;
+		  background-color: #ff7200;
+		  /* border-radius: 10px; */
+
+		  margin-top: 60px;
+		  margin-left: 420px;
+		  text-align: center;
+		  /* border-color: #ff7200; */
+		  border-top-right-radius: 10px;
+		  border-bottom-right-radius: 10px;
+		  border-bottom-left-radius: 10px;
+	  }
+	  .btn:hover {
+		  background-color: white;
+		  transition: 0.4s ease-in-out;
+	  }
+	  #home {
+		  text-decoration: none;
+		  color: black;
+	  }
+
+	  p img {
+		  height: 15px;
+		  width: 15px;
+		  margin-left: -400px;
+	  }
+
+
+
+
+    </style>
+</head>
+<body>
+<img class="logo" src="Images /logo_designed.png" alt=""/>
+<h2 class="Welcome">Welcome</h2>
+<div class="Form">
+    <input type="text" placeholder="User Name" name="user-name"/>
+    <input type="email" placeholder="Email" name="Email"/>
+    <input
+            id="Password"
+            type="password"
+            placeholder="Password"
+            name="password"
+    />
+    <!-- <button type="submit" id="login btn">Enter</button> -->
+</div>
+<button class="btn">Join</button>
+<p>
+    <a href="../Personal_html_css_js/index.html" id="home"><img src="Images /home.jpeg"/> Home</a>
+</p>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signin</title>
+    <style>
+      .logo img {
+        width: 100px;
+        border-radius: 10px;
+        margin-top: 220px;
+        margin-left: 540px;
+      }
+      .form {
+        margin-top: 45px;
+        margin-left: 500px;
+        justify-items: center;
+      }
+      .form input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: black;
+      }
+      .form .left div input {
+        margin-top: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      .form input:focus {
+        outline: none;
+      }
+      .form .left {
+        margin-left: -150px;
+      }
+      .form .right {
+        margin-left: 150px;
+        margin-top: -120px;
+      }
+      .form .right div input {
+        margin-top: 20px;
+      }
+
+      .other-icon {
+        justify-items: center;
+        display: flex;
+        margin-top: -25px;
+        border-radius: 20px;
+        margin-left: 60px;
+      }
+
+      .other-icon .imgs {
+        margin-left: -110px;
+        margin-top: 120px;
+      }
+      .other-icon img {
+        height: 20px;
+        margin-left: 10px;
+      }
+      .other-icon footer {
+        margin-top: 100px;
+        margin-left: 500px;
+      }
+      #home {
+        text-decoration: none;
+        color: black;
+      }
+
+      p img {
+        height: 15px;
+        width: 15px;
+      }
+
+
+
+
+
+    </style>
+</head>
+<link rel="icon" href="Images /logo_designed.png"/>
+<body>
+<div class="logo">
+    <img src="Images /logo_designed.png" alt=""/>
+</div>
+<div class="form">
+    <div class="left">
+        <div>
+            <input type="text" placeholder="User name" name="user-name"/>
+        </div>
+        <div><input type="email" placeholder="Email" name="email"/></div>
+        <div>
+            <input type="password" placeholder="Password" name="password"/>
+        </div>
+    </div>
+    <div class="right">
+        <div>
+            <input type="number" placeholder="Age" name="age"/>
+        </div>
+        <div>
+            <input
+                    type="text"
+                    placeholder="Country"
+                    name="country"
+                    list="countries"
+            />
+        </div>
+        <datalist id="countries">
+            <option value="Nigeria"></option>
+            <option value="United States"></option>
+            <option value="United kingdoms"></option>
+            <option value="Ghana"></option>
+            <option value="South Africa"></option>
+            <option value="Benin Republic"></option>
+            <option value="Algeria"></option>
+            <option value="Niger"></option>
+        </datalist>
+    </div>
+</div>
+<div class="other-icon">
+    <footer>Sign up with:</footer>
+    <div class="imgs">
+        <a href="http://facebook.com" target="_blank"
+        ><img src="Images /facebook.png" alt=""
+        /></a>
+        <a href="http://google.com" target="_blank"
+        ><img src="Images /google.png" alt=""
+        /></a>
+        <a href="http://github.com" target="_blank"
+        ><img src="Images /github.png" alt=""
+        /></a>
+    </div>
+</div>
+
+<p>
+    <a href="../Personal_html_css_js/index.html" id="home"><img src="Images /home.jpeg"/> Home</a>
+</p>
+</body>
+</html>
